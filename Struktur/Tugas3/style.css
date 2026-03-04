@@ -1,0 +1,70 @@
+ body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #ce1212; 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li {
+    color: white;
+    cursor: pointer;
+}
+
+.Table {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+button {
+    display: block;      
+    margin: 10px auto;   
+    text-align: center;  
+    width: fit-content;  
+    padding: 10px 40px;
+    background-color: red;
+}
+
+button:hover {
+    background-color: #774f4f;
+}
+
+.Foto1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  
+}
