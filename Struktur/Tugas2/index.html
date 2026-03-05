@@ -21,20 +21,38 @@
     
     <div class="container">
         <section class="Content">
-          <h1>CatUsa</h1>
-            <p>kucing dari amerika</p>
+          <h1>CatStore</h1>
+            <p>CatStore merupakan toko yang menyediakan layanan perawatan kucing berbagai jenis</p>
             <div class="foto">
                 <img src="img/poto2.jpg" alt="" width="300" height="300" style="border-radius: 500px; margin: 40px;">
                 <img src="img/poto1.jpg" alt="" width="300" height="300" style="border-radius: 500px; margin: 40px;">
             </div>
-            <button class="Bttn">klik Saya</button>
+            <button>klik Saya</button>
         </section>
 
         <aside class="content">
-           <h2>CatChinese</h2>
-           <p>Kucing dari amerika</p>
+           <h2>Formulir Perawatan</h2>
+           <p>Silahkan isi formulir di bawah ini</p>
+
            <div>
-            <img src="" alt="">
+            <h4>Nama Lengkap :</h4>
+            <input type="text" name="name" >
+            <h4>Email : </h4>
+            <input type="text" name="text">
+            <h4>Password</h4>
+            <input type="text" name="Pasword">
+            <h4>Jenis kelamin</h4>
+            <label><input type="checkbox" name="jeniskelamin" value="laki">laki-laki</label>
+            <label><input type="checkbox" name="jeniskelamin" value="cewe">Perempuan</label>
+            <h4>Jenis Kucing</h4>
+            <select id="JenisKucing">
+                <option value="Anggora">Anggora</option>
+                 <option value="Hutan">Hutan</option>
+                  <option value="Rumahan">Rumahan</option>
+            </select>
+            <h4>Isi Keterangan penyakit kucing</h4>
+            <textarea name="komentar" rows="4" cols="50" placeholder="Masukkan Pesan Anda"></textarea>
+            <button type="submit">Submit</button>
            </div>
         </aside>
     </div>

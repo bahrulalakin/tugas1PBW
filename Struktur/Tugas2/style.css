@@ -54,10 +54,10 @@ border-radius: 10px;
 margin-left: 20px;
 }
 
-.Bttn {
+button {
  display: inline-block;
 padding: 10px 20px;
-background-color: #dbd834;
+background-color: #f8f3f3;
 color: rgb(13, 13, 13);
 text-decoration: none;
 border-radius: 5px;
