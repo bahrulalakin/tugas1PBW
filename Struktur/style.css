@@ -1,0 +1,54 @@
+body {
+      margin: 0;
+    background-color: #e8eaef;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.judul {
+    text-align: center;
+}
+
+.poto1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin: 5% auto;
+    display: block;
+}   
+.poto2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.poto3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+table {
+     text-align-last: left;
+     border-color: rgb(227, 11, 112);
+}
+.container {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 40px 30px;
+    margin: 40px 0;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.awal {
+    background: linear-gradient(135deg, #6b95ff, #ff9f9f);
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.TT {
+    width: 7%;
+    height: 7%;
+}
