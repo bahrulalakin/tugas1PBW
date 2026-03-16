@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahasiswa Unsika</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Selamat Datang di website Mahasiswa unsika
+        </h1>
+    </header>
+    <nav>
+        <ul>
+        <li>Beranda</li>
+        <li>Tentang</li>
+        <li>Layanan</li>
+        <li>Kontak</li>
+        </ul>
+    </nav>
+
+    <div>
+        <section>
+            <h2>Mahasiwa Unsika</h2>
+            <p>Website Mahasiswa merupakan website untuk mengecek kategori nilai mahasiswa unsika</p>
+            <div class="Foto1">
+                <img src="gambar1.jpg" alt="">
+            </div>
+            <button>Selengkapnya</button>
+        </section>
+    </div>
+
+    <aside class="Table">
+        <h2> Cek Kategori Nilai </h2>
+        <input type="text" id="username" placeholder="Masukan Nama">
+        <input type="number" id="nim" placeholder="Masukan Nim"> 
+        <input type="number" id="nilai" placeholder="Masukan Nilai (0-100)">
+        <h4>Pilih Mata Kuliah</h4>
+        <select id="Matkul">
+        <option value="Aljabar">Aljabar</option>
+        <option value="Analisi Deasin">Analisi Desain</option>
+        <option value="Pemograman Berbabis Web">Pemograman Berbasis Web</option>
+        </select>
+        <button onclick="cekNilai()">Cek nilai</button>
+        <div id="hasil-container" style="margin-top: 20px; font-weight: bold;"></div>
+    </aside>
+
+</body>
+</html>
