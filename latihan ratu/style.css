@@ -1,0 +1,62 @@
+.header{
+    color: white;
+    background-color: rgb(158, 21, 21);
+    text-align: center;
+    padding: 10PX;
+    margin: 0;
+}
+.Navbar{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(227, 55, 55);
+}
+.content1{
+    background-color: gray;
+    padding: 10px;
+    margin-top: 5px ;
+    width: 75%;
+    border-radius: 10px;
+}
+.Navbar3{
+    margin-top: 1px;
+    margin: 0;
+}
+.ratu{
+    margin: 0;
+}
+.ratu2{
+    color: white;
+    background-color: red;
+    margin-top: ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.container{
+    display: flex;
+}
+
+.content2{
+    width: 25%;
+    background-color: rgb(203, 198, 198);
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10%;
+    padding: 10px ;
+    margin: ;
+}
+.sidebar {
+    margin: 0px;
+}
+.sidebar2 {
+    margin: 0px;
+}
+
+.footer {
+    background-color: rgb(16, 16, 26);
+    color: white;
+    text-align: center;
+}
