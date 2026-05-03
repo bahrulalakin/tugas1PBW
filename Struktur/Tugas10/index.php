@@ -1,3 +1,11 @@
+<?php 
+session_start();
+if ($_SESSION['status'] != "login") {
+    header("Location: login.php?message=Silahkan login terlebih dahulu");
+    exit();
+}
+include 'koneksi.php'; 
+?>
 <?php include 'koneksi.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -96,7 +104,9 @@
         <div class="d-flex justify-content-between align-items-end mb-5">
             <div>
                 <h3 class="page-title m-0">Inventory Overview</h3>
-                <p class="text-subtitle mt-1 mb-0">Manage Madinah Jaya Snack stock</p>
+               <p class="text-subtitle mt-1 mb-0">
+                    Manage Madinah Jaya Snack stock | Halo, <strong><?= $_SESSION['username'] ?></strong> 
+                [<a href="logout.php" class="text-danger text-decoration-none">Keluar</a>]</p>
             </div>
             <div>
                 <a href="tambah.php" class="btn btn-dark-custom shadow-sm">
